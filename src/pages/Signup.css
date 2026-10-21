@@ -1,0 +1,44 @@
+form{
+            display: flex;
+            background-color: rgb(101, 101, 123);
+            flex-direction: column;
+            border: 1px solid white;
+            border-radius: 15px;
+            flex-direction: column;
+            margin: 50px auto auto auto;
+            width: 35%;
+            height: 450px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            box-shadow:15px 15px 15px rgb(0, 0,0,0.5);
+
+        }
+        input{
+            width: 90%;
+            border-radius: 5px;
+            border: 1px solid white;
+            background-color: rgb(99, 99, 114);
+            height: 30px;
+
+        }
+        h2{
+            color: white;
+            text-align: center;
+            margin-top: 30px;
+        }
+        input ::placeholder{
+            color: white;
+            background-color: rgb(74, 74, 91);
+        }
+        button{
+               background-color: rgb(112, 112, 236);
+              color: white;
+              width: 70%;
+             border: 1px ;
+             padding: 10px;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+        }

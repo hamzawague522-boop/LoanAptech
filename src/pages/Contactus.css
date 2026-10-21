@@ -1,0 +1,45 @@
+ input ::placeholder{
+            color: white;
+            background-color: rgb(74, 74, 91);
+        }
+         input{
+            width: 90%;
+            border-radius: 5px;
+            border: 1px solid white;
+            background-color: rgb(99, 99, 114);
+            height: 30px;
+
+        }
+        form{
+            display: flex;
+            background-color: rgb(101, 101, 123);
+            flex-direction: column;
+            border: 1px solid white;
+            border-radius: 15px;
+            flex-direction: column;
+            margin: 50px auto auto auto;
+            width: 35%;
+            height: 450px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            box-shadow:15px 15px 15px rgb(0, 0,0,0.5);
+
+        }
+        input::focus{
+            border: 1px solid blue;
+            
+        }
+        textarea{
+            width: 90%;
+            border-radius: 5px;
+
+        }
+        button{
+            background-color: blue;
+            color: white;
+            width: 90%;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+        

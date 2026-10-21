@@ -1,0 +1,35 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.Home{
+    width: 100%;
+    background-color: aliceblue;
+    gap: 40px;
+    padding: 20px;
+
+}
+button {
+    width: 210px;
+    background-color: blue;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    gap: 5px;
+}
+.card{
+    width: 300px;
+    display: flex;
+    padding: 50px;
+   background-color: white;
+    color: black;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    box-shadow: 20px;
+}

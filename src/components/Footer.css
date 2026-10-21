@@ -1,0 +1,31 @@
+footer{
+    gap: 10px;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 290px;
+}
+.container{
+    display: flex;
+    height: 100%;
+    grid-template: auto auto auto auto;
+    color: white;
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+}
+.under {
+    color: white;
+    text-decoration: none;
+
+}
+.h5{
+    color: white;
+    margin-right: 100px;
+}
